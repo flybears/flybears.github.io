@@ -1,6 +1,6 @@
 ---
 layout: life-list
-title: All Posts
-excerpt: "A List of Posts"
+title: All Life
+excerpt: "A List of Life"
 comments: false
 ---
