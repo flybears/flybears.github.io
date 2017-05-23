@@ -19,8 +19,14 @@ layout: compress
                     <h1>{{ page.title }}</h1>
                     <h4>
                         {{ page.date | date_to_string }}
-                        {% if page.weather %}
-                        <a class="fa fa-{{page.weather}}-o"></a>
+                        {% if page.weather == 'cloud' %}
+                        <i style="margin-left: 5px; color: gray" class="fa fa-cloud"></i>
+                        {% elsif page.weather == 'sun' %}
+                        <i style="margin-left: 5px; color: #ffc300" class="fa fa-sun-o"></i>
+                        {% elsif page.weather == 'snow' %}
+                        <i style="margin-left: 5px; color: #b6acac" class="fa fa-snowflake-o"></i>
+                        {% elsif page.weather == 'rain' %}
+                        <i style="margin-left: 5px; color: #aa7070" class="fa fa-#aa7070"></i>
                         {% endif %}
                     </h4>
                     {% if site.reading_time %}
