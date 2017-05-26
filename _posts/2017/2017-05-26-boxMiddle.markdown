@@ -3,7 +3,7 @@ layout: post
 title: "div垂直水平居中的几种方式"
 date: "2017-05-26 11:15"
 excerpt: "div垂直水平居中的几种方式"
-tags: [html, 垂直居中]
+tags: [html, div, 盒子, 垂直居中]
 tech: true
 comments: true
 weather: sun
