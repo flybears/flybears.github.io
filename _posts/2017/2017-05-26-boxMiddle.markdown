@@ -10,11 +10,11 @@ weather: sun
 ---
 
 ## 现状
-> div的水平居中还是很好实现的，但是垂直居中这块比较的麻烦。css中有个`vertical-align`属性，这个属性比较的麻烦，有些同学用的时候经常会觉得无效。所以这篇博客会着重介绍下div垂直方面的知识。
+> div的水平居中还是很好实现的，但是垂直居中这块比较的麻烦。css中有个`vertical-align`属性，有些同学在使用这个属性的时候经常不会生效。所以这篇博客会着重介绍下div垂直方面的知识。
 
 ## 实现方式
 
-### 1、table-cell方式
+### 1、 `table-cell`
 html:
 ``` html
     <div class="container">
@@ -40,7 +40,7 @@ css:
     }
 ```
 
-### 2、line-height
+### 2、 `line-height`
 html同上
 
 css:
@@ -62,7 +62,7 @@ css:
     }
 ```
 
-### 3、position
+### 3、 `position`
 html同上
 
 css:
