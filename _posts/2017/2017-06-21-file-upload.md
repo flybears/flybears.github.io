@@ -14,6 +14,7 @@ weather: sun
 
 1. form表单提交方式
 form表单上传是我们最常用的一种，用法也非常的简单。
+
 ``` html
 <form action="https://jsonplaceholder.typicode.com/posts/" method="post" enctype="multipart/form-data">
     <input type="file" name="upload">
@@ -22,13 +23,15 @@ form表单上传是我们最常用的一种，用法也非常的简单。
 ```
 
 2. ajax + formData方式
+
 ``` html
 <!-- 进度条 -->
 <progress id="uploadProgress" min="0" max="100" value="0">0</progress>
 <input type="file" id="file"/>
 <input type="button" id="upload" value="upload" />
 ```
-``` js
+
+``` javascript
 var upload = document.getElementById("upload");
 upload.onclick = function(){
     var formData = new FormData();
