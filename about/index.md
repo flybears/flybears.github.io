@@ -6,4 +6,4 @@ date: 2016-03-21
 comments: false
 ---
 
-一名前端从业者的博客....
+A front-end developer blog.
